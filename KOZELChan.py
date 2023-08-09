@@ -70,32 +70,32 @@ except Exception as e:
 	print(' [+] Koneksi Internet Anda Tidak Terdeteksi Silahkan Cek Kuota Anda Ya Salam Dari BrayennnXD');exit()
 prox=open('.prox.txt','r').read().splitlines()
 for xd in range(10000):
-	a='Mozilla/5.0 (Linux; Android 11;'
+	a='Mozilla/5.0 (Linux; Android 5.1;'
 	b=random.randrange(1, 9)
 	c=random.randrange(1, 9)
-	d='M2101K7BI Build/RP1A.200720.011; wv)'
+	d='A1601 Build/LMY47I; wv)'
 	e=random.randrange(100, 9999)
-	f='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/102.0.5005.125'
+	f='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile Safari/537.36'
 	g=random.randrange(1, 9)
 	h=random.randrange(1, 4)
 	i=random.randrange(1, 4)
 	j=random.randrange(1, 4)
-	k='Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/417.0.0.33.65;]'
+	k='Mobile Safari/537.36 [FB_IAB/MESSENGER;FBAV/125.0.0.22.70;]'
 	uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
 	ugen2.append(uaku)
 	
-	aa='Mozilla/5.0 (Linux; Android 12;'
+	aa='Mozilla/5.0 (Linux; Android 10;'
 	b=random.choice(['4.3','5.0','7.0','8.1.0','9','10','11','12','13'])
-	c='vivo 2006 Build/SP1A.210812.003; wv)'
+	c='CLT-L04 Build/HUAWEICLT-L04; w)'
 	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
 	e=random.randrange(1, 999)
 	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	g='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/111.0.5563.116'
+	g='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.5790.155'
 	h=random.randrange(73,100)
 	i='0'
 	j=random.randrange(4200,4900)
 	k=random.randrange(40,150)
-	l='Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/410.0.0.26.115;]'
+	l='Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/425.0.0.22.49;]'
 	uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
 	ugen.append(uaku2)
 	
