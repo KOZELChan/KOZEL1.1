@@ -916,27 +916,31 @@ def passwrd():
 						pass
 					else:
 						pwv.append(nmf)
-						pwv.append(frs+'01')
-						pwv.append(frs+'02')
-						pwv.append(frs+'03')
-						pwv.append(frs+'04')
-						pwv.append(frs+'05')
+						pwv.append(frs+'123')
 						pwv.append(frs+'1234')
 						pwv.append(frs+'12345')
-						pwv.append(frs+'123456')
-						pwv.append('katasandi')
-						pwv.append('kontol')
+						pwv.append(frs+'gaming')
+						pwv.append(frs+'321')
+						pwv.append(frs+'456')
+						pwv.append(frs+'789')
+						pwv.append('bandung')
+						pwv.append('bandung123')
+						pwv.append('cililin')
 				else:
 					if len(frs)<3:
 						pwv.append(nmf)
 					else:
 						pwv.append(nmf)
-						pwv.append(frs+'12')
-						pwv.append(frs+'321')
 						pwv.append(frs+'123')
 						pwv.append(frs+'1234')
 						pwv.append(frs+'12345')
-						pwv.append(frs+'123456')
+						pwv.append(frs+'gaming')
+						pwv.append(frs+'321')
+						pwv.append(frs+'456')
+						pwv.append(frs+'789')
+						pwv.append('bandung')
+						pwv.append('bandung123')
+						pwv.append('cililin')
 				if 'ya' in pwpluss: 
 					for xpwd in pwnya:
 						pwv.append(xpwd)
